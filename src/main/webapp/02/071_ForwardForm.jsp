@@ -8,11 +8,11 @@
 </head>
 <body>
   
-입장하려면 나이를  입력하세요. <br>
+입장하려면 나이를 입력하세요. <br>
 <form action= "072_Forward_do.jsp">
     <input type="text" name="age">
-    <input type="hidden" name="abc" value="히라가나">
-    <input type="submit" name="age" value="슛코"> 
+    <input type="hidden" name="abc" value="영어">
+    <input type="submit" name="age" value="숫자"> 
 </form>
 
 //  name 속성과 value 속성의 차이\

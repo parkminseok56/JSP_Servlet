@@ -13,7 +13,7 @@
 		<select id="job" name="job"size="1">
 			<option value="">선택하세요</option>
 			<option value="학생">학생</option>
-			<option value="콤퓨타/인타넷">콤퓨타/인타넷</option>
+			<option value="컴퓨터/인타넷">컴퓨터/인타넷</option>
 			<option value="언론">언론</option>
 			<option value="공무원">공무원</option>
 			<option value="군인">군인</option>

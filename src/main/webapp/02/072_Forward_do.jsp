@@ -10,7 +10,7 @@ int age = Integer.parseInt(sAge);
 if(age <= 19){
 %>	
 	<script type="text/javascript">
-        alert("민자 컷!");
+        alert("미성년자입니다.");
      // location.href="071_ForwardForm.jsp"
       history.go(-1); // 뒤로 버튼을 클릭한 효과  
 	</script>

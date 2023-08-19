@@ -47,12 +47,13 @@
 ## Servlet 생명주기
 
 WAS는 서블릿 요청을 받으면 해당 서블릿이 메모리에 있는지 확인합니다.
- if (메모리에 없음) {
+ if (메모리에 없음) 
  - 해당 서블릿 클래스를 메모리에 올림
- - init() 메소드를 실행
-}
- - service()메소드를 실행
-was가 종료되거나, 웹 어플리케이션이 새롭게 갱신될 경우 destroy() 메소드가 실행됩니다.
+   - 1.init() 메소드를 실행
+
+   - 2.service()메소드를 실행
+was가 종료되거나, 웹 어플리케이션이 새롭게 갱신될 경우
+   - 3.destroy() 메소드가 실행됩니다.
 
  ![image](https://cphinf.pstatic.net/mooc/20180124_22/1516782982944xjogH_PNG/1_5_3_ServletLifcycle.PNG?type=w760)
 
